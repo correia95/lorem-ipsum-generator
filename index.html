@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#4b6b2f" />
+
+    <title>Lorem Ipsum Generator — placeholder text, paragraphs & HTML</title>
+    <meta
+      name="description"
+      content="Generate lorem ipsum placeholder text — paragraphs, sentences, words or list items, as plain text or ready-to-paste HTML. Choose the count, keep or drop the classic opening line, regenerate for fresh text. Runs in your browser, no sign-up."
+    />
+    <link rel="canonical" href="https://lorem-ipsum-generator.correia95.workers.dev/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Lorem Ipsum Generator" />
+    <meta property="og:description" content="Placeholder text for mockups — paragraphs, sentences, words or list items, plain text or HTML. Client-side, no sign-up." />
+    <meta property="og:url" content="https://lorem-ipsum-generator.correia95.workers.dev/" />
+    <meta property="og:image" content="https://lorem-ipsum-generator.correia95.workers.dev/og.svg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Lorem Ipsum Generator" />
+    <meta name="twitter:description" content="Placeholder text for mockups — paragraphs, sentences, words or list items, plain text or HTML. Client-side." />
+    <meta name="twitter:image" content="https://lorem-ipsum-generator.correia95.workers.dev/og.svg" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Lorem Ipsum Generator",
+        "url": "https://lorem-ipsum-generator.correia95.workers.dev/",
+        "applicationCategory": "DesignApplication",
+        "operatingSystem": "Any",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "description": "Generate lorem ipsum placeholder text as paragraphs, sentences, words or list items, in plain text or HTML, entirely in the browser."
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is lorem ipsum?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Lorem ipsum is scrambled Latin used as placeholder text while a design is in progress. It has been the printing and typesetting industry's dummy text since the 1500s. It reads as plausible words with no real meaning, so it fills a layout without distracting anyone into reading it."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why use lorem ipsum instead of repeated words?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Repeated words produce an unrealistic, even block of text. Lorem ipsum has word-length variety close to English, so line breaks, hyphenation and paragraph shape behave the way they will once real copy is added."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Can I get the placeholder text as HTML?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Switch the format to HTML and each paragraph is wrapped in a p tag, or each list item in an li inside a ul, ready to paste into a template or CMS field."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is the generated text the same every time?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "No. Each generation uses fresh random words from the browser's cryptographic random source. The unit, count and opening-line option are stored in the page URL so a preset can be bookmarked."
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <noscript>
+      <p style="text-align: center; padding: 20px">
+        This lorem ipsum generator needs JavaScript. It produces placeholder text as paragraphs,
+        sentences, words or list items, in plain text or HTML.
+      </p>
+    </noscript>
+  </body>
+</html>
